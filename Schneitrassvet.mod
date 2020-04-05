@@ -1,0 +1,15 @@
+version="0.0.1"
+tags={
+	"Alternative History"
+	"Events"
+	"Fixes"
+	"Ideologies"
+	"Map"
+	"National Focuses"
+	"Technologies"
+	"Translation"
+}
+name="Schneitrassvet"
+replace_path="map"
+supported_version="1.9.1 beta"
+path="C:/Users/qwqwq/OneDrive/문서/Paradox Interactive/Hearts of Iron IV/mod/Schneitrassvet"
