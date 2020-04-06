@@ -12,4 +12,4 @@ tags={
 name="Schneitrassvet"
 replace_path="map"
 supported_version="1.9.1 beta"
-path="C:/Users/qwqwq/OneDrive/문서/Paradox Interactive/Hearts of Iron IV/mod/Schneitrassvet"
+path="mod/Schneitrassvet"
