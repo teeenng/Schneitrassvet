@@ -3,7 +3,7 @@ state={
 	name="STATE_1087"
 
 	history={
-		owner = ITA
+		owner = SOM
 		add_core_of = SOM
 		buildings = {
 			infrastructure = 3

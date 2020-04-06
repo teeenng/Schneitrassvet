@@ -6,7 +6,7 @@ state={
 		victory_points = {
 			3585 3 
 		}
-		owner = CZE
+		owner = AUS
 		buildings = {
 			infrastructure = 6
 			5283 = {
@@ -15,7 +15,7 @@ state={
 			}
 
 		}
-		add_core_of = CZE
+		add_core_of = AUS
 		1938.9.30 = {
 			owner = GER
 			controller = GER

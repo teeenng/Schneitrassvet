@@ -4,7 +4,7 @@ state={
 	name="STATE_163"
 
 	history={
-		owner = ITA
+		owner = AUS
 		#add_core_of = YUG
 		add_core_of = CRO
 		victory_points = {
