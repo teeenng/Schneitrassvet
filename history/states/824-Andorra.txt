@@ -3,14 +3,14 @@ state={
 	name="STATE_824"
 
 	history={
-		owner = ADR
+		owner = SPR
 		buildings = {
 			infrastructure = 4
 		}
 		victory_points = {
 			13308 1
 		}
-		add_core_of = ADR
+		add_core_of = SPR
 	}
 
 	provinces={
