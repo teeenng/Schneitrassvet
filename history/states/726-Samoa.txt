@@ -4,7 +4,7 @@ state={
 	name="STATE_726"
 
 	history={
-		owner = NZL
+		owner = ENG
 		add_core_of = SAM
 
 		victory_points = {

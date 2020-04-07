@@ -7,7 +7,7 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = POR
+		owner = INS
 		add_core_of = ETM
 		victory_points = {
 			12190 1
