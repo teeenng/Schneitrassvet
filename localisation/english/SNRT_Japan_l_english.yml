@@ -18,3 +18,9 @@ JAP_conservatism_party:0 "CDP"
 JAP_conservatism_party_long:0 "Constitutional Democratic Party"
 JAP_authoritarian_party:0 "Rikken Seiyūkai"
 JAP_authoritarian_party_long:0 "Constitutional Association of Political Friendship"
+
+
+###National Spirits###
+
+JAP_nation_divided:0 "Country in flames"
+JAP_nation_divided_desc:0 "Fucked up"
