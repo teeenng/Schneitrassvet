@@ -20,7 +20,7 @@ create_country_leader = {
 	desc = "POLITICS_KITA_IKKI_DESC"
 	picture = "Portrait_Japan_Kita_Ikki.tga"
 	expire = "1989.1.1"
-	ideology = "national_socialism_subtype"
+	ideology = national_socialism_subtype
 	traits = {
 	}
 }
