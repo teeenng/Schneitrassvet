@@ -9,7 +9,8 @@ tags={
 	"Technologies"
 	"Translation"
 }
-replace_path="gfx/flags"
 replace_path="map"
+replace_path="gfx/flags"
+replace_path="common/bookmarks"
 name="Schneitrassvet"
 supported_version="1.9.1 beta"
