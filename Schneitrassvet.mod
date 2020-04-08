@@ -11,5 +11,7 @@ tags={
 }
 name="Schneitrassvet"
 replace_path="map"
+replace_path="gfx/flags"
+replace_path="common/bookmarks"
 supported_version="1.9.1 beta"
 path="mod/Schneitrassvet"

@@ -1,0 +1,13 @@
+ideas = {
+	country = {
+		JAP_nation_divided = {
+			allowed = {always = no}
+			modifier = { 
+				stability_factor = -0.40 
+				conscription_factor = -0.50 
+				}
+			removal_cost = -1
+			picture = JAP_nation_divided
+		}
+	}
+}

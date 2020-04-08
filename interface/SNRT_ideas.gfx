@@ -1,0 +1,10 @@
+spriteTypes = {
+
+	### JAP ###
+
+	spriteType = {
+		name = "GFX_idea_JAP_nation_divided"
+		texturefile = "gfx/interface/ideas/national_spirits/JAP/JAP_nation_divided_idea.tga"
+	}
+	
+}
