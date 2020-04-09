@@ -1,0 +1,431 @@
+focus_tree = {
+	id = JAP_kodoha_focus
+	country = {
+		factor = 0
+	}
+	
+	shared_focus = JAP_shared_test1
+	default = no
+	
+	focus = {
+		id = JAP_kodoha_rebuild
+		icon = GFX_goal_unknown
+		cost = 5.00
+		x = 6
+		y = 0
+
+	}
+	focus = {
+		id = JAP_kodoha_diplo
+		icon = GFX_goal_unknown
+		cost = 5.00
+		x = 20
+		y = 0
+
+	}
+	focus = {
+		id = JAP_kodoha_solidify_control
+		icon = GFX_goal_unknown
+		cost = 4.00
+		prerequisite = {
+			focus = JAP_kodoha_rebuild
+		}
+		x = 2
+		y = 1
+
+	}
+	focus = {
+		id = JAP_kodoha_army_problem
+		icon = GFX_goal_unknown
+		cost = 4.00
+		prerequisite = {
+			focus = JAP_kodoha_solidify_control
+		}
+		x = 1
+		y = 2
+
+	}
+	focus = {
+		id = JAP_kodoha_purge_army
+		icon = GFX_goal_unknown
+		cost = 4.00
+		prerequisite = {
+			focus = JAP_kodoha_army_problem
+		}
+		x = 0
+		y = 3
+
+	}
+	focus = {
+		id = JAP_kodoha_purge_traitors
+		icon = GFX_goal_unknown
+		cost = 4.00
+		prerequisite = {
+			focus = JAP_kodoha_solidify_control
+		}
+		x = 3
+		y = 2
+
+	}
+	focus = {
+		id = JAP_kodoha_purge_politician
+		icon = GFX_goal_unknown
+		cost = 4.00
+		prerequisite = {
+			focus = JAP_kodoha_army_problem
+		}
+		prerequisite = {
+			focus = JAP_kodoha_purge_traitors
+		}
+		mutually_exclusive = {
+			focus = JAP_kodoha_open_trial
+		}
+		x = 2
+		y = 3
+
+	}
+	focus = {
+		id = JAP_kodoha_open_trial
+		icon = GFX_goal_unknown
+		cost = 4.00
+		prerequisite = {
+			focus = JAP_kodoha_purge_traitors
+		}
+		mutually_exclusive = {
+			focus = JAP_kodoha_purge_politician
+		}
+		x = 4
+		y = 3
+
+	}
+	focus = {
+		id = JAP_kodoha_solidified_control
+		icon = GFX_goal_unknown
+		cost = 4.00
+		prerequisite = {
+			focus = JAP_kodoha_open_trial
+		}
+		prerequisite = {
+			focus = JAP_kodoha_purge_politician
+		}
+		prerequisite = {
+			focus = JAP_kodoha_purge_army
+		}
+		x = 2
+		y = 4
+
+	}
+	focus = {
+		id = JAP_kodoha_protect_emperor
+		icon = GFX_goal_unknown
+		cost = 4.00
+		prerequisite = {
+			focus = JAP_kodoha_rebuild
+		}
+		x = 6
+		y = 1
+
+	}
+	focus = {
+		id = JAP_kodoha_sonno_joi
+		icon = GFX_focus_jap_showa_restoration
+		cost = 4.00
+		prerequisite = {
+			focus = JAP_kodoha_protect_emperor
+		}
+		x = 6
+		y = 2
+
+	}
+	focus = {
+		id = JAP_kodoha_brainwash
+		icon = GFX_goal_unknown
+		cost = 4.00
+		prerequisite = {
+			focus = JAP_kodoha_sonno_joi
+		}
+		x = 6
+		y = 3
+
+	}
+	focus = {
+		id = JAP_kodoha_fanatic_people
+		icon = GFX_focus_generic_japanese_imperial_glory
+		cost = 4.00
+		prerequisite = {
+			focus = JAP_kodoha_brainwash
+		}
+		x = 6
+		y = 4
+
+	}
+	focus = {
+		id = JAP_kodoha_rebuild_society
+		icon = GFX_goal_unknown
+		cost = 4.00
+		prerequisite = {
+			focus = JAP_kodoha_rebuild
+		}
+		x = 10
+		y = 1
+
+	}
+	focus = {
+		id = JAP_kodoha_rebuild_city
+		icon = GFX_goal_unknown
+		cost = 4.00
+		prerequisite = {
+			focus = JAP_kodoha_rebuild_society
+		}
+		x = 9
+		y = 2
+
+	}
+	focus = {
+		id = JAP_kodoha_rebuild_city_1
+		icon = GFX_goal_unknown
+		cost = 4.00
+		prerequisite = {
+			focus = JAP_kodoha_rebuild_city
+		}
+		x = 8
+		y = 3
+
+	}
+	focus = {
+		id = JAP_kodoha_rebuild_rural
+		icon = GFX_goal_unknown
+		cost = 4.00
+		prerequisite = {
+			focus = JAP_kodoha_rebuild_society
+		}
+		x = 11
+		y = 2
+
+	}
+	focus = {
+		id = JAP_build_train
+		icon = GFX_goal_unknown
+		cost = 4.00
+		prerequisite = {
+			focus = JAP_kodoha_rebuild_city
+			focus = JAP_kodoha_rebuild_rural
+		}
+		x = 10
+		y = 3
+
+	}
+	focus = {
+		id = JAP_kodoha_rebuild_rural_1
+		icon = GFX_goal_unknown
+		cost = 4.00
+		prerequisite = {
+			focus = JAP_kodoha_rebuild_rural
+		}
+		x = 12
+		y = 3
+
+	}
+	focus = {
+		id = JAP_kodoha_society_rebuilt
+		icon = GFX_goal_unknown
+		cost = 4.00
+		prerequisite = {
+			focus = JAP_kodoha_rebuild_city_1
+		}
+		prerequisite = {
+			focus = JAP_build_train
+		}
+		prerequisite = {
+			focus = JAP_kodoha_rebuild_rural_1
+		}
+		x = 10
+		y = 4
+
+	}
+	focus = {
+		id = JAP_kodoha_make_faction
+		icon = GFX_goal_unknown
+		cost = 4.00
+		prerequisite = {
+			focus = JAP_kodoha_diplo
+		}
+		x = 20
+		y = 1
+
+	}
+	focus = {
+		id = JAP_kodoha_southern
+		icon = GFX_goal_unknown
+		cost = 4.00
+		prerequisite = {
+			focus = JAP_kodoha_make_faction
+		}
+		x = 17
+		y = 2
+
+	}
+	focus = {
+		id = JAP_kodoha_indochina
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = JAP_kodoha_southern
+		}
+		x = 16
+		y = 3
+
+	}
+	focus = {
+		id = JAP_kodoha_philippines
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = JAP_kodoha_southern
+		}
+		x = 18
+		y = 3
+
+	}
+	focus = {
+		id = JAP_kodoha_india
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = JAP_kodoha_philippines
+			focus = JAP_kodoha_indochina
+		}
+		x = 18
+		y = 4
+
+	}
+	focus = {
+		id = JAP_kodoha_usa
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = JAP_kodoha_make_faction
+		}
+		x = 20
+		y = 2
+
+	}
+	focus = {
+		id = JAP_kodoha_hawaii
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = JAP_kodoha_usa
+		}
+		x = 20
+		y = 3
+
+	}
+	focus = {
+		id = JAP_kodoha_pacific
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = JAP_kodoha_hawaii
+		}
+		x = 20
+		y = 4
+
+	}
+	focus = {
+		id = JAP_kodoha_northern
+		icon = GFX_goal_unknown
+		cost = 4.00
+		prerequisite = {
+			focus = JAP_kodoha_make_faction
+		}
+		x = 23
+		y = 2
+
+	}
+	focus = {
+		id = JAP_kodoha_korea
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = JAP_kodoha_northern
+		}
+		x = 23
+		y = 3
+
+	}
+	focus = {
+		id = JAP_kodoha_china
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = JAP_kodoha_korea
+		}
+		x = 22
+		y = 4
+
+	}
+	focus = {
+		id = JAP_kodoha_rebuild_over
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = JAP_kodoha_solidified_control
+		}
+		prerequisite = {
+			focus = JAP_kodoha_fanatic_people
+		}
+		prerequisite = {
+			focus = JAP_kodoha_society_rebuilt
+		}
+		x = 6
+		y = 5
+
+	}
+	focus = {
+		id = JAP_kodoha_russia
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = JAP_kodoha_korea
+		}
+		x = 24
+		y = 4
+
+	}
+	focus = {
+		id = JAP_kodoha_indonesia
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = JAP_kodoha_indochina
+			focus = JAP_kodoha_philippines
+		}
+		x = 16
+		y = 4
+
+	}
+	focus = {
+		id = JAP_kodoha_proclaim_victory
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = JAP_kodoha_pacific
+		}
+		prerequisite = {
+			focus = JAP_kodoha_china
+		}
+		prerequisite = {
+			focus = JAP_kodoha_russia
+		}
+		prerequisite = {
+			focus = JAP_kodoha_india
+		}
+		prerequisite = {
+			focus = JAP_kodoha_indonesia
+		}
+		x = 20
+		y = 5
+
+	}
+}

@@ -1,0 +1,12 @@
+focus_tree = {
+	id = JAP_focus_base_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = JAP
+		}
+	}
+	shared_focus = JAP_shared_test1
+	default = no
+}
