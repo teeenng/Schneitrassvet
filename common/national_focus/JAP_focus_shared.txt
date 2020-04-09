@@ -1,0 +1,203 @@
+
+	shared_focus = {
+		id = JAP_shared_army
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 36
+		y = 0
+
+	}
+	shared_focus = {
+		id = JAP_shared_blitzkrieg
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = JAP_shared_army
+		}
+		mutually_exclusive = { 
+			focus = JAP_shared_artillery
+			focus = JAP_shared_grand_battle
+		}
+		x = 32
+		y = 1
+
+	}
+	shared_focus = {
+		id = JAP_shared_blitzkrieg_1
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = JAP_shared_blitzkrieg
+		}
+		x = 31
+		y = 2
+
+	}
+	shared_focus = {
+		id = JAP_shared_blitzkrieg_2
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = JAP_shared_blitzkrieg
+		}
+		x = 33
+		y = 2
+
+	}
+	shared_focus = {
+		id = JAP_shared_blitzkrieg_3
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = JAP_shared_blitzkrieg_1
+		}
+		prerequisite = {
+			focus = JAP_shared_blitzkrieg_2
+		}
+		x = 32
+		y = 3
+
+	}
+	shared_focus = {
+		id = JAP_shared_army_factory
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = JAP_shared_army
+		}
+		x = 34
+		y = 3
+
+	}
+	shared_focus = {
+		id = JAP_shared_artillery
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = JAP_shared_army
+		}
+		mutually_exclusive = {
+			focus = JAP_shared_blitzkrieg
+			focus = JAP_shared_grand_battle
+		}
+		x = 36
+		y = 1
+
+	}
+	shared_focus = {
+		id = JAP_shared_artillery_1
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = JAP_shared_artillery
+		}
+		x = 35
+		y = 2
+
+	}
+	shared_focus = {
+		id = JAP_shared_artillery_2
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = JAP_shared_artillery
+		}
+		x = 37
+		y = 2
+
+	}
+	shared_focus = {
+		id = JAP_shared_artillery_3
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = JAP_shared_artillery_1
+		}
+		prerequisite = {
+			focus = JAP_shared_artillery_2
+		}
+		x = 36
+		y = 3
+
+	}
+	shared_focus = {
+		id = JAP_shared_crypt
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = JAP_shared_army
+		}
+		x = 38
+		y = 3
+
+	}
+	shared_focus = {
+		id = JAP_shared_grand_battle
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = JAP_shared_army
+		}
+		mutually_exclusive = {
+			focus = JAP_shared_blitzkrieg
+			focus = JAP_shared_artillery
+		}
+		x = 40
+		y = 1
+
+	}
+	shared_focus = {
+		id = JAP_shared_grand_battle_1
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = JAP_shared_grand_battle
+		}
+		x = 39
+		y = 2
+
+	}
+	shared_focus = {
+		id = JAP_shared_grand_battle_2
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = JAP_shared_grand_battle
+		}
+		x = 41
+		y = 2
+
+	}
+	shared_focus = {
+		id = JAP_shared_grand_battle_3
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = JAP_shared_grand_battle_2
+		}
+		prerequisite = {
+			focus = JAP_shared_grand_battle_1
+		}
+		x = 40
+		y = 3
+
+	}
+	shared_focus = {
+		id = JAP_shared_army_reborn
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = JAP_shared_army_factory
+		}
+		prerequisite = {
+			focus = JAP_shared_crypt
+		}
+		prerequisite = {
+			focus = JAP_shared_artillery_3
+			focus = JAP_shared_grand_battle_3
+			focus = JAP_shared_blitzkrieg_3
+		}
+		x = 36
+		y = 4
+
+	}

@@ -1,0 +1,14 @@
+add_namespace = JAP_debug_event
+
+country_event = {
+	id = JAP_debug_event.1
+	title = JAP_debug_event.1.t
+	desc = JAP_debug_event.1.d
+	
+	option = {
+		load_focus_tree = {
+			tree = JAP_kodoha_focus
+			keep_completed = yes
+			}
+		}
+	}
