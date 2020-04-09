@@ -1,0 +1,62 @@
+###############################
+# Dongbei Decisions Cathegory #
+# by NIKA           		  #
+###############################
+KOR_influence_management_decision = {
+	
+	KOR_influence_management_decision_russia = {
+		icon = decision_generic_political_discourse
+		visible = {
+			has_variable = KOR_russia_influence > 0
+		}
+		cost = 15
+		days_remove = 30
+		days_re_enable = 60
+		modifier = {
+			politicial_power_gain = -0.15
+		}
+		remove_effect = {
+			add_to_variable = {
+				var = KOR_russia_influence
+				value = 4
+			}
+			subtract_from_variable = {
+				var = KOR_china_influence
+				value = 2
+			}
+			custom_effect_tooltip = KOR_russia_influence_add_4
+			custom_effect_tooltip = KOR_china_influence_lose_2
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	KOR_influence_management_decision_china = {
+		icon = decision_generic_political_discourse
+		visible = {
+			has_variable = KOR_china_influence > 0
+		}
+		cost = 15
+		days_remove = 30
+		days_re_enable = 60
+		modifier = {
+			politicial_power_gain = -0.15
+		}
+		remove_effect = {
+			add_to_variable = {
+				var = KOR_china_influence
+				value = 4
+			}
+			subtract_from_variable = {
+				var = KOR_russia_influence
+				value = 2
+			}
+			custom_effect_tooltip = KOR_china_influence_add_4
+			custom_effect_tooltip = KOR_russia_influence_lose_2		
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+}

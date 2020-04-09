@@ -1,0 +1,11 @@
+	#Not run on a specific country.
+on_actions = {
+	on_startup = {
+		effect = {
+			KOR = {
+				set_variable = { KOR_russia_influence = 20 }
+				set_variable = { KOR_china_influence = 5 }
+			}
+		}
+	}
+}
