@@ -4,7 +4,7 @@ focus_tree = {
 		factor = 0
 	}
 	
-	shared_focus = JAP_shared_test1
+	shared_focus = JAP_shared_army
 	default = no
 	
 	focus = {
