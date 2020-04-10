@@ -1,22 +1,21 @@
 state={
-	id=1086
-	name="STATE_1086"
+	id=1136
+	name="STATE_1136"
 
 	history={
-		owner = TUR
+		owner = AZR
 		buildings = {
 			infrastructure = 3
 
 		}
 		add_core_of = PER
-		add_core_of = KUR
 
 	}
 
 	provinces={
-		1636 1822 2071 7604
+		4609 4901 10454
 	}
-	manpower=310200
+	manpower=31020
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 }
