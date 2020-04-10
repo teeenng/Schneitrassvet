@@ -15,3 +15,4 @@ replace_path="gfx/flags"
 replace_path="common/bookmarks"
 supported_version="1.9.1"
 path="mod/Schneitrassvet"
+dependencies = {"Korean Language (Europa)"}
